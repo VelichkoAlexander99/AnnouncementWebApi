@@ -20,16 +20,16 @@ The project is a set of API methods developed on the ASP.NET platform that imple
 * Name (type string): User's name.
 * IsAdmin (type bool): Flag indicating whether the user is an administrator.
 
-### Fields of the "Advertisement" entity:
+### Fields of the "Announcement" entity:
 
-* Id (type Guid): Unique identifier of the advertisement.
-* Number (type int): Advertisement number (e.g., sequential number).
-* UserId (type Guid): Identifier of the user who created the advertisement.
-* Text (type string): Advertisement text.
-* ImageUri (type Uri): URI link to the advertisement image.
-* Rating (type int): Advertisement rating (e.g., quality rating).
-* Created (type DateTime): Date and time of the advertisement creation.
-* Expiry (type DateTime): Date and time when the advertisement expires.
+* Id (type Guid): Unique identifier of the announcement.
+* Number (type int): Announcement number (e.g., sequential number).
+* UserId (type Guid): Identifier of the user who created the announcement.
+* Text (type string): Announcement text.
+* ImageUri (type Uri): URI link to the announcement image.
+* Rating (type int): Announcement rating (e.g., quality rating).
+* Created (type DateTime): Date and time of the announcement creation.
+* Expiry (type DateTime): Date and time when the announcement expires.
 
 ![DataBase Diagram](./DataBaseDiagram.png)
 
